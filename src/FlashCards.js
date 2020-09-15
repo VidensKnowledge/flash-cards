@@ -12,6 +12,7 @@ const FlashCards = ({props}) => {
         <Card  color='red' header='option 1' description="This is the answer for Option 1"/>
         <Card color='orange' header='Option 2' description="This is the answer for Option 1"/>
         <Card color='yellow' header='Option 3' description="This is the answer for Option 1"/>
+        
       </Card.Group>
     </Container>
     </div>

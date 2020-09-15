@@ -8,9 +8,10 @@ const FlashCard = ({ id, subject, notes}) => {
       <Card>
         <Card.Content>
           <Card.Header>{subject}</Card.Header>
-          <Card.Description>
-            {notes}
-          </Card.Description>
+          <Card.Description>{notes}</Card.Description>
+          {/* <Card.Description>
+          <Button onClick={() => ()}> Delete </Button>
+          </Card.Description> */}
         </Card.Content>
       </Card>
     </div>

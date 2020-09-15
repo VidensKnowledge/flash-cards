@@ -20,6 +20,10 @@ class App extends React.Component {
   //   console.log(flashCards);
   // }
 
+  //removeFlashcard = (id) => { 
+   // const { FlashCard } = this.state;
+  //}
+
 
   toggleAnswer=()=>{
       //the description will go here, and be shown or hidden.  
@@ -28,10 +32,10 @@ class App extends React.Component {
   render(){
     return (
       <Container>
-        <p>Is this working?</p>
-      {/* <FlashCardForm /> */}
-      <FlashCards />
-      <FlashCard />
+        <h1>Flash Cards</h1>
+        <FlashCardForm />
+        <FlashCards />
+        <FlashCard />
       </Container>
       
     )
